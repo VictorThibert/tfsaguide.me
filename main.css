@@ -11,24 +11,6 @@
 	src: url("assets/fonts/ct2.ttf") format("truetype");
 }
 
-
-body {
-	font-family: 'cc', sans-serif;
-	font-size: 26px;
-	margin: 0px;
-}
-
-#maincontainer {
-	width: 70%;
-	margin: 100px auto;
-	padding: 20px;
-	
-}
-
-h1{
-	font-family: 'ct'
-}
-
 div#fixedheader {
 	font-family: 'ct', sans-serif;
 	font-size: 36px;
@@ -41,6 +23,42 @@ div#fixedheader {
 	left:0px;
 	width:100%;
 	
-	background:#333;
-	padding: 20px 0px;
+	background:#222;
+	padding: 15px 0px;
 }
+
+
+body {
+	font-family: 'cc', sans-serif;
+	font-size: 26px;
+	color: #222;
+	margin: 0px;
+}
+
+#maincontainer {
+	width: 65%;
+	margin: 120px auto;
+}
+
+#tableofcontents {
+	float: left;
+	width:30%;
+	padding-top: 100px;
+
+}
+
+#textcontent {
+	float: left;
+	width:70%;
+
+}
+
+h1 {
+	font-family: 'ct';
+	font-size: 40px;
+}
+
+h1#title{
+	font-size: 55px;
+}
+
