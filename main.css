@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'cc';
+	src: url("assets/fonts/cc.otf") format("opentype");
+}
+
+body {
+	font-family: 'cc', sans-serif;
+	font-size: 16px;
+}
