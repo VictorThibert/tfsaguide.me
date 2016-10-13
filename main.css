@@ -27,12 +27,17 @@ div#fixedheader {
 	padding: 15px 0px;
 }
 
+p {
+	margin: 10px 0px;
+}
+
 
 body {
 	font-family: 'cc', sans-serif;
-	font-size: 26px;
+	font-size: 22px;
 	color: #222;
 	margin: 0px;
+	letter-spacing: 0.5px;
 }
 
 #maincontainer {
@@ -61,4 +66,9 @@ h1 {
 h1#title{
 	font-size: 55px;
 }
+
+.regtext {
+	line-height: 30px;
+}
+
 
