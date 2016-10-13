@@ -6,6 +6,11 @@
 	font-family: 'ct';
 	src: url("assets/fonts/ct.otf") format("opentype");
 }
+@font-face {
+	font-family: 'ct2';
+	src: url("assets/fonts/ct2.ttf") format("truetype");
+}
+
 
 body {
 	font-family: 'cc', sans-serif;
@@ -13,16 +18,29 @@ body {
 	margin: 0px;
 }
 
+#maincontainer {
+	width: 70%;
+	margin: 100px auto;
+	padding: 20px;
+	
+}
+
+h1{
+	font-family: 'ct'
+}
+
 div#fixedheader {
 	font-family: 'ct', sans-serif;
 	font-size: 36px;
 	letter-spacing: 0.5px;
+	text-align: center;
+	color:#FFF;
 
 	position:fixed;
 	top:0px;
 	left:0px;
 	width:100%;
-	color:#FFF;
+	
 	background:#333;
-	padding:20px;
+	padding: 20px 0px;
 }
