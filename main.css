@@ -5,5 +5,24 @@
 
 body {
 	font-family: 'cc', sans-serif;
-	font-size: 16px;
+	font-size: 26px;
+	margin: 0px;
+}
+
+.header {
+    height:50px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width:960px;
+    margin:0px auto;
+}
+
+div#fixedheader {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:#333;
+	padding:20px;
 }
