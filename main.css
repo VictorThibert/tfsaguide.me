@@ -68,6 +68,11 @@ h1#title{
 	font-size: 45px;
 }
 
+h2 {
+	font-family: 'ct';
+	
+}
+
 .regtext {
 	line-height: 30px;
 }
