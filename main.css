@@ -55,6 +55,7 @@ body {
 	/*float: left;*/
 	/*width:30%;*/
 	/*padding-left: 50px;*/
+	max-width: 300px;
 
 }
 
@@ -200,3 +201,21 @@ button.accordion.active:after {
         display:block !important;
     }
 }
+
+.content-nav{
+	padding: 0;
+}
+
+.content-nav li{
+	list-style: none;
+	cursor: pointer;
+	padding: 10px 0px 10px 5px;
+	border-bottom: 1px solid #dfdfdf;
+	background-color: #fff;
+	transition: all 0.5s ease;
+}
+
+.content-nav li:hover{
+	background-color: #33ccff;
+}
+
