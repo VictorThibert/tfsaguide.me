@@ -20,7 +20,7 @@ div#fixedheader {
 	width:100%;
 	
 	background:#222;
-	padding: 15px 0px;
+	padding: 10px 0px;
 	z-index: 99;
 }
 
@@ -54,13 +54,14 @@ body {
 #tableofcontents {
 	/*float: left;*/
 	/*width:30%;*/
-	/*padding-left: 50px;*/
+	padding-top: 120px;
 	max-width: 300px;
 
 }
 
 #textcontent {
-	/*float: left;*/
+	margin-left: 30%;
+	margin-top: 40px;
 	/*width:70%;*/
 
 }
@@ -89,7 +90,7 @@ hr.hr1 {
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.05);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    width: 75%;
+    width: 50%;
     margin-left: 0px;
 }
 
@@ -209,13 +210,16 @@ button.accordion.active:after {
 .content-nav li{
 	list-style: none;
 	cursor: pointer;
-	padding: 10px 0px 10px 5px;
-	border-bottom: 1px solid #dfdfdf;
+	padding: 7px 0px 7px 5px;
+	border-bottom: 1px solid #EEE;
+	border-radius: 4px;
 	background-color: #fff;
 	transition: all 0.5s ease;
+	width: 100%;
+
 }
 
 .content-nav li:hover{
-	background-color: #33ccff;
+	background-color: #EEE;
 }
 
