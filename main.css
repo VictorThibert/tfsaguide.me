@@ -12,11 +12,7 @@
 }
 
 div#fixedheader {
-	font-family: 'ct', sans-serif;
-	font-size: 36px;
-	letter-spacing: 0.5px;
-	text-align: center;
-	color:#FFF;
+	
 
 	position:fixed;
 	top:0px;
@@ -25,7 +21,17 @@ div#fixedheader {
 	
 	background:#222;
 	padding: 15px 0px;
+	z-index: 99;
 }
+
+.logo{
+font-family: 'ct', sans-serif;
+	font-size: 36px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	color:#FFF;
+}
+
 
 p {
 	margin: 10px 0px;
@@ -46,15 +52,15 @@ body {
 }
 
 #tableofcontents {
-	float: left;
-	width:30%;
-	padding-top: 100px;
+	/*float: left;*/
+	/*width:30%;*/
+	/*padding-left: 50px;*/
 
 }
 
 #textcontent {
-	float: left;
-	width:70%;
+	/*float: left;*/
+	/*width:70%;*/
 
 }
 
@@ -82,4 +88,51 @@ hr.hr1 {
 }
 
 
+/*Bootstrap overrides*/
+.navbar-toggle{
+	float:left;
+	background:#FFF;
+}
 
+.navbar-toggle	.icon-bar{
+	background: #000;
+}
+.navbar-header a{
+	color: #FFF;
+}
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
