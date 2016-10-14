@@ -70,7 +70,7 @@ h1#title{
 
 h2 {
 	font-family: 'ct';
-	
+
 }
 
 .regtext {
@@ -86,5 +86,64 @@ hr.hr1 {
     margin-left: 0px;
 }
 
+/* Accordion area */
+button.accordion {
+    background-color: #eee;
+    font-size: 14px;
+    color: #444;
+    cursor: pointer;
+    padding: 10px 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    border-radius: 4px;
+}
+
+button.accordion.active{
+	border-radius: 4px 4px 0px 0px;
+	background-color: #ddd;
+}
+
+button.accordion:hover {
+    background-color: #ddd;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: #EEE;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.2s ease-in-out;
+    opacity: 0;
+    border-radius: 0px 0px 4px 4px;
+    font-size: 16px;
+    line-height: 22px
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 400px; 
+
+}
+
+/*put symbols here */
+
+button.accordion:after {
+    content: '▾'; 
+    font-size: 14px;
+    font-family: 'cc';
+    color: #777;
+    float: right;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+/*
+button.accordion.active:after {
+    content: "▴"; 
+}
+*/
 
 
