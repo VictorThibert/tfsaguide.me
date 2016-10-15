@@ -60,6 +60,7 @@ body {
 	/*width:30%;*/
 	padding-top: 120px;
 	max-width: 300px;
+	margin-left: -40px;
 
 }
 
@@ -78,9 +79,12 @@ h1 {
 
 h1#title{
 	font-size: 45px;
+	margin-top: 30px;
+	margin-bottom: 20px;
 }
 
 h2 {
+	margin-top: 30px;
 	font-family: 'ct';
 
 }
@@ -220,6 +224,7 @@ button.accordion.active:after {
 	background-color: #fff;
 	transition: all 0.5s ease;
 	width: 100%;
+
 
 }
 

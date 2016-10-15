@@ -5,7 +5,7 @@ $(document).ready(function() {
 	$('#what').click(function(event) {
       event.preventDefault();
     $('html,body').animate({
-        scrollTop: $("#what-body").offset().top - 80},
+        scrollTop: $("#what-body").offset().top - 90},
         'slow');
     });
 
@@ -13,14 +13,14 @@ $(document).ready(function() {
     $('#how').click(function(event) {
       event.preventDefault();
     $('html,body').animate({
-        scrollTop: $("#how-body").offset().top - 80},
+        scrollTop: $("#how-body").offset().top - 90},
         'slow');
     });
 
     $('#limits').click(function(event) {
       event.preventDefault();
     $('html,body').animate({
-        scrollTop: $("#limits-body").offset().top - 80},
+        scrollTop: $("#limits-body").offset().top - 90},
         'slow');
     });
 });
