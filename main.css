@@ -11,6 +11,10 @@
 	src: url("assets/fonts/ct2.ttf") format("truetype");
 }
 
+.tooltips {
+	border-bottom: dotted 1px #444; 
+}
+
 div#fixedheader {
 	
 
@@ -25,7 +29,7 @@ div#fixedheader {
 }
 
 .logo{
-font-family: 'ct', sans-serif;
+	font-family: 'ct', sans-serif;
 	font-size: 36px;
 	letter-spacing: 0.5px;
 	text-align: center;
