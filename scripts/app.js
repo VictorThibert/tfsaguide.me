@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+     $('[data-toggle="tooltip"]').tooltip(); 
+
 	$('#what').click(function(event) {
       event.preventDefault();
     $('html,body').animate({
