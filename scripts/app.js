@@ -108,6 +108,13 @@ $(document).ready(function() {
         'slow');
     });
 
+    $('#tax').click(function(event) {
+      event.preventDefault();
+    $('html,body').animate({
+        scrollTop: $("#tax-body").offset().top - 90},
+        'slow');
+    });
+
     $('#calc').click(function(event) {
       event.preventDefault();
     $('html,body').animate({
