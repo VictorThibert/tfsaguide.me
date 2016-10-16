@@ -16,11 +16,13 @@ var icarray = carray.reverse() //for indexing help
 var inputDOB = document.getElementById('DOB');
 var inputwithdrawals = document.getElementById('withdrawals');
 var inputnet = document.getElementById('net');
+var inputnet2 = document.getElementById('net2');
 var inputcontributionroom = document.getElementById('contributionroom');
 
 var contribution = 0;
 var cwithdrawals = 0;
 var cnet = 0;
+var cnet2 = 0;
 
 inputwithdrawals.onkeyup = function(){
     cwithdrawals = inputwithdrawals.value;
@@ -29,6 +31,11 @@ inputwithdrawals.onkeyup = function(){
 
 inputnet.onkeyup = function(){
     cnet = inputnet.value;
+    updateContributionRoom();
+}
+
+inputnet2.onkeyup = function(){
+    cnet2 =inputnet2.value;
     updateContributionRoom();
 }
 function updateDate(e){
@@ -56,7 +63,7 @@ function updateDate(e){
 
 function updateContributionRoom(){
     console.log(contribution);
-    inputcontributionroom.value = contribution - cnet -cwithdrawals;
+    inputcontributionroom.value = contribution - (cnet - cnet2) -cwithdrawals;
 }
 
 for (i = 0; i < acc.length; i++) {

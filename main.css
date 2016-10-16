@@ -265,7 +265,8 @@ button.accordion.active:after {
 
 }
 .dateinput{
-    border: none;
+    border: solid 0.5px rgba(0,0,0, 0.1);
+    /*border: none;*/
     background: #eee;
     border-radius: 5px;
     padding-left: 24px;
@@ -282,5 +283,6 @@ button.accordion.active:after {
       box-shadow: none !important;
       width: 40% !important;
       font-family: 'Lato'
+      margin: auto;
     }
 
