@@ -1,6 +1,10 @@
 $(document).ready(function() {
 
-    $('#datepicker').datepicker();
+    $('#datepicker').datepicker({
+        autoclose: true,
+        startView: 2
+        });
+
 
      $('[data-toggle="tooltip"]').tooltip(); 
 
