@@ -111,27 +111,36 @@
 				    </tbody>
 			  	</table>
 
+			  	<p class="regtext">So, if you were 18 or older in 2009, you would now have a cumulative $46,500 in contribution room.</p>
 			  	<div style="background: rgba(255, 100,0,0.1); padding: 2px 20px;  border-radius:5px;"><p><b>Warning:</b> If the amount in your TFSA exceeds your allowed contribution room at any time, the excess amount will be subject to a 1% monthly tax.</p> </div>
 
 
 
 				<h2 id="calc-body">Contribution Calculator</h2>
-				<p class="regtext">Use this calculator to calculator how much contribution room you have available this year.</p>
-				<br>
+			
+				
 				<p class="regtext">What is your birth date? </p> 
 				<div class="input-append date" id="datepicker" data-date="1990-12-25" data-date-format="yyyy-mm-dd">
-				    <input size="13" type="text" value="1990-12-25" class="dateinput" readonly><span class="add-on"><i class="r"></i></span>
+				    <input id="DOB"size="13" type="text" value="1990-12-25" class="dateinput" readonly><span class="add-on"><i class="r"></i></span>
 				</div>
-				<p class="regtext">What is the amount of money that you have put into your TFSA to date? </p>
+				<p class="regtext">What is the net amount of money that you have put into your TFSA to date? </p>
 				<p class="regtext" style="margin-top:-10px">(i.e. the total sum of your contributions minus the sum of you withdrawals)</p>
 				<div class="input-group">
 				  <span class="input-group-addon" style="font-family:Lato">$</span>
-				  <input type="number"  min="0" max= "100000" class="form-control input2" aria-label="Amount (to the nearest dollar)">
+				  <input id="net" placeholder="0" type="number"  min="0" max= "100000" class="form-control input2" aria-label="Amount (to the nearest dollar)">
 				</div>
 				<br>
 				<p class="regtext">How much have you withdrawn this year alone?</p>
+				<div class="input-group">
+				  <span class="input-group-addon" style="font-family:Lato">$</span>
+				  <input id="withdrawals" placeholder="0" type="number"  min="0" max= "100000" class="form-control input2" aria-label="Amount (to the nearest dollar)">
+				</div>
 				<br>
 				<p>Your available contribution room: </p>
+				<div class="input-group">
+				  <span class="input-group-addon" style="font-family:Lato">$</span>
+				  <input id="contributionroom" placeholder="0" readonly  min="0" max= "100000" class="form-control input2" aria-label="Amount (to the nearest dollar)">
+				</div>
 
 
 				<h2 id="faq-body">Frequently Asked Question</h2>

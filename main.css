@@ -280,7 +280,7 @@ button.accordion.active:after {
       -webkit-box-shadow: none !important;
       -moz-box-shadow: none !important;
       box-shadow: none !important;
-      width: 50% !important;
+      width: 40% !important;
       font-family: 'Lato'
     }
 
