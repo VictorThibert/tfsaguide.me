@@ -11,6 +11,7 @@ var selectedmm = 01;
 var selectedyyyy = 2100;
 
 var carray = [5000, 5000, 5000, 5000, 5500, 5500, 10000, 5500];
+var icarray = carray.reverse() //for indexing help
 
 var inputDOB = document.getElementById('DOB');
 var inputwithdrawals = document.getElementById('withdrawals');
@@ -18,20 +19,44 @@ var inputnet = document.getElementById('net');
 var inputcontributionroom = document.getElementById('contributionroom');
 
 var contribution = 0;
+var cwithdrawals = 0;
+var cnet = 0;
+
 inputwithdrawals.onkeyup = function(){
-    inputcontributionroom.value = contribution;
+    cwithdrawals = inputwithdrawals.value;
+    updateContributionRoom();
 }
 
 inputnet.onkeyup = function(){
-    inputcontributionroom.value = contribution;
+    cnet = inputnet.value;
+    updateContributionRoom();
 }
-
 function updateDate(e){
- 
+    contribution = 0;
+
     selectedyyyy = parseInt(e.slice(0,4));
     selectedmm = parseInt(e.slice(5,7));
     selecteddd = parseInt(e.slice(8,10));
+
+    var year18 = selectedyyyy + 18;
+    var contributionYears = yyyy - year18;
+    if (contributionYears >= carray.length){
+        contributionYears = carray.length - 1;
+    }
+
+
+    for(var i = 0; i <= contributionYears ; i++){
+        contribution += icarray[i]
+    }
+
+
+    updateContributionRoom();
     
+}
+
+function updateContributionRoom(){
+    console.log(contribution);
+    inputcontributionroom.value = contribution - cnet -cwithdrawals;
 }
 
 for (i = 0; i < acc.length; i++) {
