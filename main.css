@@ -274,3 +274,13 @@ button.accordion.active:after {
 	background-color: #EEE;
 }
 
+.input2 {
+    outline: none;
+      border: 1px solid rgba(0,0,0, 0.2) !important;
+      -webkit-box-shadow: none !important;
+      -moz-box-shadow: none !important;
+      box-shadow: none !important;
+      width: 50% !important;
+      font-family: 'Lato'
+    }
+

@@ -33,8 +33,8 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
-								<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-								<li><a href="#">Link</a></li>
+								<!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+								<li><a href="#">Link</a></li> -->
 							</ul>
 						</div><!-- /.navbar-collapse -->
 					</div><!-- /.container-fluid -->
@@ -121,9 +121,13 @@
 				<p class="regtext">What is your birth date? </p> 
 				<div class="input-append date" id="datepicker" data-date="1990-12-25" data-date-format="yyyy-mm-dd">
 				    <input size="13" type="text" value="1990-12-25" class="dateinput" readonly><span class="add-on"><i class="r"></i></span>
-
 				</div>
-				<p class="regtext">What is the net amount of money that you have put into your TFSA to date?</p>
+				<p class="regtext">What is the amount of money that you have put into your TFSA to date? </p>
+				<p class="regtext" style="margin-top:-10px">(i.e. the total sum of your contributions minus the sum of you withdrawals)</p>
+				<div class="input-group">
+				  <span class="input-group-addon" style="font-family:Lato">$</span>
+				  <input type="number"  min="0" max= "100000" class="form-control input2" aria-label="Amount (to the nearest dollar)">
+				</div>
 				<br>
 				<p class="regtext">How much have you withdrawn this year alone?</p>
 				<br>
