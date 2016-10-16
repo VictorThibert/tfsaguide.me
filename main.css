@@ -22,24 +22,25 @@
 }
 
 #datepicker {
-	font-family: 'arial';
+	font-family: 'Lato', sans-serif;
+    color: #222;
 }
 
 /* calendar picking things*/
 .day{
-    font-family: 'arial';
+    font-family: 'Lato', sans-serif;
 }
 .switch {
-    font-family: 'arial';
+    font-family: 'Lato', sans-serif;
 }
 .dow {
-    font-family: 'arial';
+    font-family: 'Lato', sans-serif;
 }
 .month {
-    font-family: 'arial';
+   font-family: 'Lato', sans-serif;
 }
 .year {
-    font-family: 'arial';
+    font-family: 'Lato', sans-serif;
 }
 .active.day {
     background-color: #555;
