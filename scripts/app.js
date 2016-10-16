@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+    $('#datepicker').datepicker();
+
      $('[data-toggle="tooltip"]').tooltip(); 
 
 	$('#what').click(function(event) {

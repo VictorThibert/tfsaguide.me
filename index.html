@@ -6,7 +6,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<script   src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="assets/datepicker/css/datepicker.css">
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  		<script type="text/javascript" src="assets/datepicker/js/bootstrap-datepicker.js"></script>
 		<link rel="stylesheet" href="main.css" />
   	</head>
   	<body>
@@ -50,7 +52,7 @@
 
 				<img src="images/city.PNG" style="width:100%; border-radius:5px"></img>
 				<br><br>
-				<button style="font-size: 15px;" class="accordion">Disclaimer</button>
+				<button style="font-size: 16px;" class="accordion">Disclaimer</button>
 				<div class="panel">
 				  <p>tfsaguide.me cannot guarantee the accuracy of the information found on this website. Please consult your financial professional before making any final decisions.</p>
 				</div>
@@ -68,6 +70,11 @@
 
 				<h2 id="calc-body">Contribution Calculator</h2>
 				<p class="regtext">Use this calculator to calculator how much contribution room you have available this year.</p>
+
+				<div class="input-append date" id="datepicker" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+				    <input size="16" type="text" value="12-02-2012" readonly>
+				    <span class="add-on"><i class="icon-th"></i></span>
+				</div>
 
 				<br><br><br>
 				<p class="regtext">Lorem ipsum sed utperspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequia. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, qui ratione voluptatem squi nexcient. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam. beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequia. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, qui ratione voluptatem squi nexcient. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam.beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequia. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, qui ratione voluptatem squi nexcient. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam.</p>

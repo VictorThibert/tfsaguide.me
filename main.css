@@ -15,6 +15,37 @@
 	border-bottom: dotted 1px #444; 
 }
 
+/* tooltip attributes */
+.tooltip > .tooltip-inner {
+	padding: 12px;
+	font-size: 14px;
+}
+
+#datepicker {
+	font-family: 'arial';
+}
+
+/* calendar picking things*/
+.day{
+    font-family: 'arial';
+}
+.switch {
+    font-family: 'arial';
+}
+.dow {
+    font-family: 'arial';
+}
+.month {
+    font-family: 'arial';
+}
+.year {
+    font-family: 'arial';
+}
+.active.day {
+    background-color: #555;
+    background-image: none;
+}
+
 div#fixedheader {
 	
 
@@ -44,7 +75,7 @@ p {
 
 body {
 	font-family: 'cc', sans-serif;
-	font-size: 22px;
+	font-size: 20px;
 	color: #222;
 	margin: 0px;
 	letter-spacing: 0.5px;
@@ -134,7 +165,7 @@ div.panel {
     transition: 0.2s ease-in-out;
     opacity: 0;
     border-radius: 0px 0px 4px 4px;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 22px
 }
 
@@ -148,7 +179,7 @@ div.panel.show {
 
 button.accordion:after {
     content: '▾'; 
-    font-size: 14px;
+    font-size: 15px;
     font-family: 'cc';
     color: #777;
     float: right;
