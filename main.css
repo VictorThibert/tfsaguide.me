@@ -22,25 +22,26 @@
 }
 
 #datepicker {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
     color: #222;
+    font-size: 18px;
 }
 
 /* calendar picking things*/
 .day{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .switch {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .dow {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .month {
-   font-family: 'Lato', sans-serif;
+   font-family: 'Roboto', sans-serif;
 }
 .year {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .active.day {
     background-color: #555;

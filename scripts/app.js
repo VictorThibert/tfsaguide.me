@@ -36,4 +36,18 @@ $(document).ready(function() {
         scrollTop: $("#calc-body").offset().top - 90},
         'slow');
     });
+
+    $('#faq').click(function(event) {
+      event.preventDefault();
+    $('html,body').animate({
+        scrollTop: $("#faq-body").offset().top - 90},
+        'slow');
+    });
+
+    $('#sources').click(function(event) {
+      event.preventDefault();
+    $('html,body').animate({
+        scrollTop: $("#sources-body").offset().top - 90},
+        'slow');
+    });
 });
