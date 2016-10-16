@@ -117,12 +117,13 @@ h1 {
 h1#title{
 	font-size: 45px;
 	margin-top: 30px;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 
 h2 {
 	margin-top: 30px;
 	font-family: 'ct';
+    margin-bottom: 15px;
 
 }
 
