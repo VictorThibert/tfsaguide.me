@@ -135,5 +135,47 @@ $(document).ready(function() {
         scrollTop: $("#sources-body").offset().top - 90},
         'slow');
     });
+
+    $('#how2').click(function(event) {
+      event.preventDefault();
+    $('html,body').animate({
+        scrollTop: $("#how-body").offset().top - 90},
+        'slow');
+    });
+
+    $('#limits2').click(function(event) {
+      event.preventDefault();
+    $('html,body').animate({
+        scrollTop: $("#limits-body").offset().top - 90},
+        'slow');
+    });
+
+    $('#tax2').click(function(event) {
+      event.preventDefault();
+    $('html,body').animate({
+        scrollTop: $("#tax-body").offset().top - 90},
+        'slow');
+    });
+
+    $('#calc2').click(function(event) {
+      event.preventDefault();
+    $('html,body').animate({
+        scrollTop: $("#calc-body").offset().top - 90},
+        'slow');
+    });
+
+    $('#faq2').click(function(event) {
+      event.preventDefault();
+    $('html,body').animate({
+        scrollTop: $("#faq-body").offset().top - 90},
+        'slow');
+    });
+
+    $('#sources2').click(function(event) {
+      event.preventDefault();
+    $('html,body').animate({
+        scrollTop: $("#sources-body").offset().top - 90},
+        'slow');
+    });
 });
 
