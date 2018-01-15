@@ -10,7 +10,7 @@ var selecteddd = 01;
 var selectedmm = 01; 
 var selectedyyyy = 2100;
 
-var carray = [5000, 5000, 5000, 5000, 5500, 5500, 10000, 5500, 5500];
+var carray = [5000, 5000, 5000, 5000, 5500, 5500, 10000, 5500, 5500, 5500];
 var icarray = carray.reverse() //for indexing help
 
 var inputDOB = document.getElementById('DOB');
